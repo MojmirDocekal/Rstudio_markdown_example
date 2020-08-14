@@ -2,6 +2,8 @@
 title: "Example"
 author: "John Doe"
 date: "14 8 2020"
+header-includes:
+   - \usepackage{expex}
 output: pdf_document
 ---
 
@@ -28,3 +30,8 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Linguistics
+
+\ex There is one sentence.
+\xe
