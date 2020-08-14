@@ -2,9 +2,10 @@
 title: "Example"
 author: "John Doe"
 date: "14 8 2020"
-header-includes:
-   - \usepackage{expex}
-output: pdf_document
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage{expex}
 ---
 
 ```{r setup, include=FALSE}
